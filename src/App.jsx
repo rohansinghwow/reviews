@@ -19,15 +19,15 @@ export default function App () {
       
   
       return (
-        <>
+        <div className=" antialiased bg-slate-200 h-screen">
         <Main/>
-        <div className="grid place-content-center mt-10">
+        <div className="grid place-content-center mt-20">
         <Review next={nextBtn} prev={prevBtn} key={review[arrayPoint].id} name={review[arrayPoint].name} job={review[arrayPoint].job}
        
           img={review[arrayPoint].image} info={review[arrayPoint].text} />
         </div>
        
-      </>
+        </div>
       )
 
   
